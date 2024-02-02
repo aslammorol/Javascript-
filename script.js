@@ -1,9 +1,10 @@
-const numbers = [45, 4, 9, 16, 25];
-let txt = 0;
-for (let x in numbers) {
-    txt += numbers[x];
+const cars = ["BMW", "Volvo", "Saab", "Ford"];
+
+list : {
+  console.log(cars[0]);
+  console.log(cars[1]);
+  console.log(cars[2]);
+  break list ;
+  console.log(cars[3]);
+  console.log(cars[4]);
 }
-// for(let i = 0; i < numbers.length; i++){
-//   txt += numbers[i];
-// }
-console.log(txt);
