@@ -1,0 +1,18 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container{
+  height: 250px;
+  width: 250px;
+  margin: 20px auto;
+  background-color: yellow;
+  position: relative;
+}
+#animate{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-color: red;
+}
